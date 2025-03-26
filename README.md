@@ -11,7 +11,7 @@ This hybrid pipeline is evaluated on multi-hop question answering and code reaso
 
 ## Notebooks
 
-- Exploring_ReAct_on_Langchain.ipynb: testing CoT vs React prompting / manual implementation : understanding the technique.
+- Exploring_ReAct_on_Langchain.ipynb : testing CoT vs React prompting / manual implementation : understanding the technique.
 - hotpotqa_GPT3.ipynb: React technique tested on HotpotQA with GPT-3 as a reference LLM.
 - hotpotQA_crag_GPT3.ipynb: React coupled with CRAG technique tested on HotpotQA with GPT-3 as a reference LLM.
 
@@ -22,9 +22,9 @@ As HotpotQA and FEVER have large validation sets, we only run 500 random example
 
 
 |       | HotpotQA (500 random dev, EM) | FEVER (500 random dev, EM) 
-|--------------------|-------------------------------|----------------------------|
-| PaLM-540B (paper)              |                        |                       
-| GPT-3 (3.5-turbo-instruct)     |                        |                       
+|----------------------------|-------------------------------|----------------------------|
+| GPT-3 + CRAG (3.5-turbo-instruct) |      25                |        51                  
+| GPT-3 (3.5-turbo-instruct)        |     19.2               |       45.4                
 
 ## Citation
 
