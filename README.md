@@ -9,6 +9,14 @@ Improve factual accuracy and logical soundness
 Achieve better overall task performance compared to standard Chain-of-Thought (CoT) prompting and vanilla REACT agents
 This hybrid pipeline is evaluated on multi-hop question answering and code reasoning benchmarks, where agent reliability and coherence are critical.
 
+## Notebooks
+
+-Exploring_ReAct_on_Langchain.ipynb: testing CoT vs React prompting / manual implementation : understanding the technique
+-hotpotqa_GPT3.ipynb: React technique tested on HotpotQA with GPT-3 as a reference LLM.
+-hotpotQA_crag_GPT3.ipynb: React coupled with CRAG technique tested on HotpotQA with GPT-3 as a reference LLM.
+
+
+
 ## Experiments
 As HotpotQA and FEVER have large validation sets, we only run 500 random examples (see notebooks). We find PaLM and GPT-3 are better at different tasks.
 
