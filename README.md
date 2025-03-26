@@ -15,8 +15,8 @@ As HotpotQA and FEVER have large validation sets, we only run 500 random example
 
 |       | HotpotQA (500 random dev, EM) | FEVER (500 random dev, EM) 
 |--------------------|-------------------------------|----------------------------|
-| PaLM-540B (paper)              | 29.4                          | 62.2                      
-| GPT-3 (3.5-turbo-instruct)     | 30.4                          | 54                       
+| PaLM-540B (paper)              |                        |                       
+| GPT-3 (3.5-turbo-instruct)     |                        |                       
 
 ## Citation
 
