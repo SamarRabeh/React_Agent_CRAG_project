@@ -11,9 +11,9 @@ This hybrid pipeline is evaluated on multi-hop question answering and code reaso
 
 ## Notebooks
 
--Exploring_ReAct_on_Langchain.ipynb: testing CoT vs React prompting / manual implementation : understanding the technique
--hotpotqa_GPT3.ipynb: React technique tested on HotpotQA with GPT-3 as a reference LLM.
--hotpotQA_crag_GPT3.ipynb: React coupled with CRAG technique tested on HotpotQA with GPT-3 as a reference LLM.
+- Exploring_ReAct_on_Langchain.ipynb: testing CoT vs React prompting / manual implementation : understanding the technique.
+- hotpotqa_GPT3.ipynb: React technique tested on HotpotQA with GPT-3 as a reference LLM.
+- hotpotQA_crag_GPT3.ipynb: React coupled with CRAG technique tested on HotpotQA with GPT-3 as a reference LLM.
 
 
 
