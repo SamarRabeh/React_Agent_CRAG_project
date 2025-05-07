@@ -37,10 +37,10 @@ As HotpotQA and FEVER have large validation sets, we only run 500 random example
   html = {https://arxiv.org/abs/2210.03629},
 }
 ```
-@article{yan2024corrective,
+@@inproceedings{yan2024corrective,
   title={Corrective Retrieval Augmented Generation},
   author={Yan, Shi-Qi and Gu, Jia-Chen and Zhu, Yun and Ling, Zhen-Hua},
   journal={arXiv preprint arXiv:2401.15884},
   year={2024}
-}
+},
 ```
